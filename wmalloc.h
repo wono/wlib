@@ -1,6 +1,6 @@
 /*  WMALLOC.H
  *
- *      last modified:  2014/05/08
+ *      last modified:  2014/08/22
  *      first wrote:    2014/05/05
  *
  *      wono (a.k.a wonho)
@@ -10,7 +10,7 @@
 #define _wmalloc_h_
 
 #include <stdlib.h>
-#include <wlib/wassert.h>
+#include "wassert.h"
 
 static inline void * MEMORY_ALLOCATE ( size_t  size )
 {
