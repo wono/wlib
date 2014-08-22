@@ -1,6 +1,6 @@
 /*  WSTRING_TOUPPER_STRING
  *
- *      last modified:  2014/05/14
+ *      last modified:  2014/08/22
  *      first wrote:    2014/05/10
  *
  *      wono (a.k.a wonho)
@@ -9,7 +9,7 @@
 #ifndef _wstring_to_upper_h_
 #define _wstring_to_upper_h_
 
-#include <wascii/alphamap.h>
+#include "alphamap.h"
 
 /*  precondition:
  *      the string must be dynamically allocated or defined as
