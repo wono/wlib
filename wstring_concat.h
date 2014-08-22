@@ -1,16 +1,16 @@
 /*  WSTRING_CONCAT
  *
- *      last modified:  2014/05/06
+ *      last modified:  2014/08/22
  *      first wrote:    2014/05/06
  *
- *      wono (a.k.a wonho)
+ *      Wonho Lim
  */
  
 #ifndef _wstring_concat_h_
 #define _wstring_concat_h_
 
-#include <wmemory/wmemory_allocation.h>
-#include <wstring/wstring_length.h>
+#include "wmemory_allocation.h"
+#include "wstring_length.h"
 
 static inline char *
 WSTRING_CONCATENATE ( char * string1, char * string2 )
