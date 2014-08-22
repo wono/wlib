@@ -9,7 +9,7 @@
 #ifndef _winput_handler_h_
 #define _winput_handler_h_
 
-#include <wlib/wassert.h>
+#include "wassert.h"
 
 static const size_t DEFAULT_MAX_LENGTH_INTEGER     = 8;
 static const size_t DEFAULT_MAX_LENGTH_STRING      = 32;
