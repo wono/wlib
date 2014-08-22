@@ -1,15 +1,15 @@
 /*  WSTRING_TOLOWER
  *
- *      last modified:  2014/05/14
+ *      last modified:  2014/08/22
  *      first wrote:    2014/05/10
  *
- *      wono (a.k.a wonho)
+ *      Wonho Lim
  */
 
 #ifndef _wstring_to_lower_h_
 #define _wstring_to_lower_h_
 
-#include <wascii/alphamap.h>
+#include "alphamap.h"
 
 /*  precondition:
  *      the string must be dynamically allocated or defined as
