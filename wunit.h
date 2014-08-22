@@ -1,8 +1,8 @@
 /*
- *      last modified:  2014/05/03
+ *      last modified:  2014/08/22
  *      first wrote:    2014/04/02
  *
- *      wono (a.k.a wonho)
+ *      Wonho Lim
  */
  
 #undef NDEBUG
@@ -18,8 +18,8 @@
 #   include <stdlib.h>
 #   endif
 
-#   ifndef _wdebug_h_
-#   include <wlib/wassert.h>
+#   ifndef  _wassert_h_
+#   include "wassert.h"
 #   endif
 
 #define _mu_suite_start() char *message = NULL
