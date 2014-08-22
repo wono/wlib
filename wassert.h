@@ -1,5 +1,5 @@
 /*
- *  super simple library with neat format to alternate <assert.h>
+ *  simple library with neat format to alternate <assert.h>
  *
  *      last modified:  2014/05/28
  *      first wrote:    2014/04/02

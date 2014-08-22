@@ -22,12 +22,12 @@
 #   include "wassert.h"
 #   endif
 
-#define _mu_suite_start() char *message = NULL
+#define _wu_suite_start() char *message = NULL
 
-#define _mu_assert( test, message )\
+#define _wu_assert( test, message )\
 if (!(test)) {log_err (message); return message;}
 
-#define _mu_run_test( test )\
+#define _wu_run_test( test )\
 debug("\n-----%s", " " #test);\
 message = test();\
 tests_run++;\

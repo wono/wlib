@@ -50,20 +50,3 @@
         { log_err(M, ##__VA_ARGS__); errno=0; goto error; }
 
 #endif
-
-/*  << modifications by wono >>
- *
- *  date:     2014/03/11
- *  1.  cut out long lines by concatenating
- *  2.  uncapitalized lables 
- *      ex) [INFO] --> [info]
- *  3.  new format - aligned file name and line numbers
- *      ex) [info] (main.c:41)
- *          [info] (main.c:9)
- *      --> [info: main.c, 41]
- *          [info: main.c,  9]
- */
-
-/*  << ver. 1.0.1 : 2014/03/18 >>
- *  re-aligned code - enhanced formats.
- */
