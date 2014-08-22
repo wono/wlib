@@ -3,7 +3,7 @@
  *      last modified:  2014/08/22
  *      first wrote:    2014/05/05
  *
- *      wono (a.k.a wonho)
+ *      Wonho Lim
  */
 
 #ifndef _wmalloc_h_
