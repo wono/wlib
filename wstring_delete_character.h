@@ -1,17 +1,17 @@
 /*  WSTRING_DELETE_CHARACTER
  *      : within a string, deletes any character but null
  *
- *      last modified:  2014/05/04
+ *      last modified:  2014/08/22
  *      first wrote:    2014/05/01
  *
- *      wono (a.k.a wonho)
+ *      Wonho Lim
  */
 
 #ifndef _wstring_delete_character_h_
 #define _wstring_delete_character_h_
 
 #include <stdlib.h>
-#include <wstring/wstring_length.h>
+#include "wstring_length.h"
 
 inline static char *
 WSTRING_DELETE_CHARACTER (  char *      string,
