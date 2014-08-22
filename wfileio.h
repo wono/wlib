@@ -1,5 +1,5 @@
 /*
- *      last modified:  2014/05/08
+ *      last modified:  2014/08/22
  *      first wrote:    2014/04/18
  *
  *      wono (a.k.a wonho)
@@ -8,7 +8,7 @@
 #ifndef _wfileio_h_
 #define _wfileio_h_
 
-#include <wlib/wassert.h>
+#include "wassert.h"
 
 #define FOR_APPEND  "a+"
 #define FOR_READ    "r+"
