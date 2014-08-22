@@ -1,9 +1,9 @@
 /*  simple dinamic array 
  *
- *      last modified:  2014/04/26
+ *      last modified:  2014/08/22
  *      first wrote:    2014/04/11
  *
- *      wono (a.k.a wonho)
+ *      Wonho Lim
  */
 
 #ifndef _darray_h_
@@ -14,7 +14,7 @@
 #   endif
 
 #   ifndef  _wassert_h_
-#   include <wlib/wassert.h>
+#   include "wassert.h"
 #   endif
 
 typedef struct Warray Warray;
