@@ -1,16 +1,16 @@
 /*  WSTRING_DELETE_CHARACTER_NULL
  *
- *      last modified:  2014/05/06
+ *      last modified:  2014/08/22
  *      first wrote:    2014/05/06
  *
- *      wono (a.k.a wonho)
+ *      Wonho Lim
  */
  
 #ifndef _wstring_delete_character_null_h_
 #define _wstring_delete_character_null_h_
 
-#include <wmemory/wmemory_allocation.h>
-#include <wstring/wstring_length.h>
+#include "wmemory_allocation.h"
+#include "wstring/wstring_length.h"
 
 static inline char * DELETE_CHARACTER_NULL ( char * string )
 {
