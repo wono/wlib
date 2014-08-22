@@ -1,9 +1,9 @@
 /*  a simple & safe funtion to get value from input stream
  *
- *      last modified:  2014/05/05
+ *      last modified:  2014/08/22
  *      first wrote:    2014/04/24
  *
- *      wono (a.k.a wonho)
+ *      Wonho Lim
  */
 
 #ifndef _winput_handler_h_
