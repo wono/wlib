@@ -7,17 +7,9 @@ alphamap
 --------
     simple library for alternating tolower and toupper of ctype.h
 
-darray
-------
-    simple dinamic array
-    
 wassert
 -------
     simple library with neat format to alternate <assert.h>
-    
-wdebug
-------
-    tiny debugger
     
 wfileio
 -------
