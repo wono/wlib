@@ -1,7 +1,7 @@
 wlib
 ====
 
-wlib is a bulde of simple and legible C libraries.
+wlib is a junior programmer's bulde of simple and legible C libraries.
 
 alphamap
 --------
