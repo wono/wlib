@@ -40,21 +40,9 @@ wstring_comparision
 -------------------
     string comparision checker.. 
     
-wstring_concat
---------------
-    string concatnator built with own libraries
-    
 wstring_copy
 ------------
-    simple string copier
-    
-wstring_delete_character
-------------------------
-    within a string, deltes any character but null
-    
-wstring_delete_character_null
------------------------------
-    within a string, deletes any character including null
+    simple string copy
 
 wstring_length
 --------------
