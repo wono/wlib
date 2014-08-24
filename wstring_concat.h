@@ -1,6 +1,6 @@
 /*  WSTRING_CONCAT
  *
- *      last modified:  2014/08/22
+ *      last modified:  2014/08/23
  *      first wrote:    2014/05/06
  *
  *      Wonho Lim
@@ -28,7 +28,7 @@ WSTRING_CONCATENATE ( char * string1, char * string2 )
         string_new[i++] = string1[i];
     
     while ((string_new[i++] = string2[j++]));
-    //RETURN_AND_RELEASE (string_new);
+    
     free (string_new);
     return string_new;
 }
