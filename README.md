@@ -34,7 +34,7 @@ wshell_handler
 wstring_clear
 -------------
     fills string with null character until first null character 
-    occurs. it can also be used static char array.
+    occurs. A static char array can also be used.
     
 wstring_comparision
 -------------------
@@ -50,11 +50,11 @@ wstring_length
     
 wstring_tolower
 ----------------
-    lowercase a letter
+    lowercase string
     
 wstring_toupper
 ---------------
-    uppercase a letter
+    uppercase string
     
 wunit
 -----
