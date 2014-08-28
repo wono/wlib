@@ -13,7 +13,7 @@ wassert
     
 wfileio
 -------
-    file input/output handlier
+    file input/output handler
     
 whtml_formatter
 ---------------
