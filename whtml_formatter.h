@@ -25,8 +25,8 @@
 "</body>\n"
 
 /*  OUT:    output stream (e.g., stdout, stderr, a file pointer)
- *  TTL:    title of this html (in head),   CString type
- *  CNT:    contetns for body,              CString type */
+ *  TTL:    title of this html (in head),   constant string type
+ *  CNT:    contetns for body,              constant string type */
 #define HTML_FORMATTER( OUT, TTL, CNT )\
 fprintf (OUT, \
     HTML_FORMAT_DOCTYPE \
